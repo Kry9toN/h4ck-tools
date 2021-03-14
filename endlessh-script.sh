@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ $(id -u) != 0 ]
+then
+	echo 'Script harus run di root user'
+	exit 0
+fi
+
 echo 'Clone repo Endlessh'
 git clone https://github.com/skeeto/endlessh
 sleep 1
@@ -8,8 +14,6 @@ echo 'Masuk ke endlessh folder'
 cd endlessh
 sleep 1
 
-echo 'Login root user'
-sudo -s
 if [! -f '$(pwd)/Makefile']
 then
 	echo 'Makefile tidak ada'
