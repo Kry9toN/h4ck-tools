@@ -1,0 +1,35 @@
+Mencari kelemahan website
+
+LKS29WILKER3{no_database_login_23}
+LKS2
+
+
+
+
+
+
+
+
+
+
+Cryptograpi 1.5
+
+Memconvert Hexadecimal ke String untuk menemukan flag
+dan menghapus huruf 'z'untuk membenarkan flag nya
+
+Cryptograpi 1.8
+
+Menconvert binary code ke string menggunakan tools online dan mendapatkan flag nya
+
+
+Cryptograpi 2.1
+
+'tipgkftrvjri29' adalah Caesar Cipher encrypt
+setelah di decrypt saya menemukan flag nya
+
+Steganography 1.5
+
+Extract .png lalu terdapat base64
+convert ke gambar lalu mendapat flag nya
+
+
